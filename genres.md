@@ -1,6 +1,9 @@
 ---
 layout: default
+title: Genres
 ---
+
+# Genres
 
 - Fork (copy) this repository by clicking the “Fork” button on the top right corner.
 - Go to “Settings” -> “Pages” in your forked repository. Under “Branch” change “None” to “master” and click “Save”.
