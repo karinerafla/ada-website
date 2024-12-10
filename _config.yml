@@ -4,8 +4,15 @@ description: An analysis of key factors to critical and commercial successes in 
 show_downloads: True
 navigation:
   - title: Home
-    url: /
-  - title: Section
-    url: /
-  - title: Example
-    url: example
+    url: README.md
+  - title: Genres
+    url: genres.md
+  - title: Movies
+    url: movies.md
+  - title: Actors
+    url: actors.md
+  - title: Cult Characters
+    url: cult_characters.md
+  - title: Predictor
+    url: predictor.md
+
