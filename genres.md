@@ -1,6 +1,3 @@
----
-layout: default
----
 - Fork (copy) this repository by clicking the “Fork” button on the top right corner.
 - Go to “Settings” -> “Pages” in your forked repository. Under “Branch” change “None” to “master” and click “Save”.
 - Edit the _config.yml file in your forked repository to change the site title (after title:) and description (after description:).
