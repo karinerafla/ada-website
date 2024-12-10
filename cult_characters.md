@@ -1,3 +1,4 @@
 ---
-layout: default
+layout: full
+title: Genres
 ---

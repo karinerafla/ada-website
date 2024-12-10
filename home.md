@@ -1,3 +1,7 @@
+---
+layout: full
+title: Genres
+---
 # Exploring Key Factors and Trends to Critical and Commercial Successes in the Movie Industry Over Time
 
 ## 1. Genres: Evolution and Trends

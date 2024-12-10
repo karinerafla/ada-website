@@ -2,17 +2,5 @@ theme: jekyll-theme-minimal
 title: The Undocumented Analysts
 description: An analysis of key factors to critical and commercial successes in the movie industry over time.
 show_downloads: True
-navigation:
-  - title: Home
-    url: README.md
-  - title: Genres
-    url: genres.md
-  - title: Movies
-    url: movies.md
-  - title: Actors
-    url: actors.md
-  - title: Cult Characters
-    url: cult_characters.md
-  - title: Predictor
-    url: predictor.md
+
 

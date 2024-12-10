@@ -1,12 +1,15 @@
 ---
 title: Home
-layout: default
+layout: full
 ---
 
 # Welcome to The Undocumented Analysts
 An analysis of key factors to critical and commercial successes in the movie industry over time.
 
 Navigate to:
-- [Home](README.md)
+- [Home](home.md)
 - [Genres](genres.md)
-- [Other Sections](other-page.md)
+- [Movies](movies.md)
+- [Actors](actors.md)
+- [Cult Characters](cult_characters.md)
+- [Our Interactive Predictor](predictors.md)
