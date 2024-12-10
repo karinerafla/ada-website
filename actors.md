@@ -1,6 +1,6 @@
 ---
 layout: full
-title: Genres
+title: Actors
 ---
 navigation:
   - title: Home

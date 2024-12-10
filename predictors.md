@@ -1,4 +1,4 @@
 ---
 layout: full
-title: Genres
+title: Our Interactive Predictor
 ---
