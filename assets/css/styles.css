@@ -1,8 +1,9 @@
 body {
-  background-color: #121212; /* Dark background */
-  color: #e0e0e0; /* Light text for contrast */
-  font: 16px/1.5 "Segoe UI", Arial, sans-serif; /* Slightly larger font */
-  padding: 40px; /* Adjust padding for spacing */
+  background-color: #fff;
+  padding:50px;
+  font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color:#595959;
+  font-weight:400;
 }
 
 
