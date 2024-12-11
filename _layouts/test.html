@@ -60,8 +60,15 @@
 							<h2>Introducing the ultimate mobile app
 							<br />
 							for doing stuff with your phone</h2>
-							<p>Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc ornare<br />
-							adipiscing nunc adipiscing. Condimentum turpis massa.</p>
+							<script>
+								// Fetch Markdown from a file and render it
+								fetch('home.md')
+									.then(response => response.text())
+									.then(markdown => {
+										const htmlContent = marked.parse(markdown);
+										document.getElementById('content').innerHTML = htmlContent;
+									});
+							</script>
 						</header>
 						<span class="image featured"><img src="images/pic01.jpg" alt="" /></span>
 					</section>
