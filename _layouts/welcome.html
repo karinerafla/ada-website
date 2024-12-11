@@ -6,83 +6,70 @@
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/style.css">
     <style>
-        /* General body styling */
-        html, body {
-            margin: 0;
-            padding: 0;
-            display: flex; /* Enable flex for the sidebar */
-            height: 100%;
-        }
+        /* General Styles */
         body {
             font-family: 'Georgia', serif;
+            margin: 0;
+            display: flex;
+            height: 100vh; /* Full viewport height */
             background-color: #f5f3e6; /* Soft cream */
-            color: #333; /* Neutral text color */
         }
 
-        /* Sidebar styles */
-        nav {
-            width: 250px;
+        /* Sidebar Styles */
+        .sidebar {
+            width: 250px; /* Adjust sidebar width */
             background-color: #2c2c2c; /* Cinema black */
             color: #d4af37; /* Gold */
-            height: 100vh; /* Full viewport height */
             padding: 20px;
-            box-sizing: border-box;
-        }
-        nav h2 {
-            text-align: center;
-            color: #d4af37; /* Gold */
-        }
-        nav a {
-            display: block;
-            color: #d4af37; /* Gold */
-            text-decoration: none;
-            margin: 15px 0;
-            font-weight: bold;
-        }
-        nav a:hover {
-            text-decoration: underline;
-            color: #f5f3e6; /* Cream hover effect */
+            display: flex;
+            flex-direction: column;
         }
 
-        /* Main content styles */
-        main {
-            flex: 1; /* Allow main content to expand */
-            padding: 30px;
-            max-width: 800px;
-            margin: 0 auto;
-            background: #fff; /* Soft background */
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        main h1 {
-            color: #d4af37; /* Gold for titles */
-            font-size: 2em;
+        .sidebar h2 {
+            color: #d4af37;
+            font-size: 1.5em;
+            margin-bottom: 20px;
             text-align: center;
         }
-        main p {
-            line-height: 1.6;
+
+        .sidebar a {
+            color: #ffd700; /* Gold */
+            text-decoration: none;
+            margin: 10px 0;
+            font-weight: bold;
             font-size: 1.1em;
         }
 
-        /* Footer styles */
+        .sidebar a:hover {
+            text-decoration: underline;
+            color: #f5f3e6; /* Cream hover */
+        }
+
+        /* Main Content Styles */
+        .main-content {
+            flex: 1; /* Take up the remaining space */
+            padding: 20px;
+            background-color: #fff; /* Soft white for content */
+            overflow-y: auto; /* Scroll if content overflows */
+            border-left: 4px solid #d4af37; /* Gold divider */
+        }
+
+        .main-content h1 {
+            color: #d4af37;
+            text-align: center;
+        }
+
         footer {
-            background-color: #2c2c2c; /* Cinema black */
-            color: #fff;
             text-align: center;
             padding: 10px;
-            position: relative;
-            bottom: 0;
-            width: 100%;
+            background-color: #2c2c2c;
+            color: #fff;
             font-size: 0.9em;
-        }
-        footer p {
-            margin: 0;
         }
     </style>
 </head>
 <body>
-    <!-- Sidebar navigation -->
-    <nav>
+    <div class="sidebar">
         <h2>Navigation</h2>
         <a href="/">Home</a>
         <a href="/genres">Genres</a>
@@ -90,16 +77,12 @@
         <a href="/actors">Actors</a>
         <a href="/cult_characters">Cult Characters</a>
         <a href="/predictors">Our Interactive Predictor</a>
-    </nav>
-
-    <!-- Main content -->
-    <main>
+    </div>
+    <div class="main-content">
         {{ content }}
-    </main>
-
-    <!-- Footer -->
-    <footer>
-        <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
-    </footer>
+        <footer>
+            <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
+        </footer>
+    </div>
 </body>
 </html>
