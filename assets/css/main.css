@@ -10,6 +10,17 @@
 /* Reset */
 
 /* Based on meyerweb.com/eric/tools/css/reset (v2.0 | 20110126 | License: public domain) */
+@font-face {
+    font-family: 'FuturaPaneuropeanMedium';
+    src: url('assets/fonts/FuturaPaneuropeanMedium.woff2') format('woff2'),
+         url('assets/fonts/FuturaPaneuropeanMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'FuturaPaneuropeanMedium', sans-serif;
+}
 
 	html, body, div, span, applet, object,
 	iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
