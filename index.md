@@ -1,6 +1,6 @@
 ---
 title: Home
-layout: full
+layout: welcome
 ---
 
 # Welcome to The Undocumented Analysts
