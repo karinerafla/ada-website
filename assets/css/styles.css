@@ -1,7 +1,16 @@
+@font-face {
+  font-family: 'FuturaPaneuropeanMedium';
+  src: url('assets/fonts/FuturaPaneuropeanMedium.woff2') format('woff2'),
+       url('assets/fonts/FuturaPaneuropeanMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   background-color: #fff;
   padding:50px;
   font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'FuturaPaneuropeanMedium', sans-serif;
   color:#595959;
   font-weight:400;
 }
