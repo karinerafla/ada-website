@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: welcome
 title: Home
 ---
 # Exploring Key Factors and Trends to Critical and Commercial Successes in the Movie Industry Over Time
